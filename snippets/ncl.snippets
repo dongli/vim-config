@@ -13,3 +13,7 @@ snippet beg
 	    ${1:start_here}
 
 	end
+snippet openwks
+	wks = gsn_open_wks("${1:pdf}", "${2:figure}")
+snippet plot_xy
+	${1:plot} = gsn_csm_xy(wks, ${2:x}, ${3:y}, ${4:res})
