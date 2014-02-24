@@ -1,14 +1,13 @@
-" NCL type
 integer float double string graphic
-" NCL boolean
+
 True False
-" NCL AnnoManager resource
+
 amDataXF amDataYF amJust amOn amOrthogonalPosF amParallelPosF amResizeNotify amSide amTrackData amViewId amZone
-" NCL App resource
+
 appDefaultParent appFileSuffix appResources appSysDir appUsrDir
-" NCL CoordArrays resource
+
 caCopyArrays caXArray caXCast caXMaxV caXMinV caXMissingV caYArray caYCast caYMaxV caYMinV caYMissingV
-" NCL ContourPlot resource
+
 cnCellFillEdgeColor cnCellFillMissingValEdgeColor cnConpackParams
 cnConstFLabelAngleF cnConstFLabelBackgroundColor cnConstFLabelConstantSpacingF
 cnConstFLabelFont cnConstFLabelFontAspectF cnConstFLabelFontColor
@@ -67,15 +66,15 @@ cnOutOfRangePerimDashPattern cnOutOfRangePerimOn cnOutOfRangePerimThicknessF
 cnRasterCellSizeF cnRasterMinCellSizeF cnRasterModeOn cnRasterSampleFactorF
 cnRasterSmoothingOn cnScalarFieldData cnSmoothingDistanceF cnSmoothingOn
 cnSmoothingTensionF cnSpanFillPalette cnSpanLinePalette
-" NCL CoordArrTable resource
+
 ctCopyTables ctXElementSize ctXMaxV ctXMinV ctXMissingV ctXTable
 ctXTableLengths ctXTableType ctYElementSize ctYMaxV ctYMinV ctYMissingV
 ctYTable ctYTableLengths ctYTableType
-" NCL DataComm resource
+
 dcDelayCompute
-" NCL Error resource
+
 errBuffer errFileName errFilePtr errLevel errPrint errUnitNumber
-" NCL GraphicStyle resource
+
 gsClipOn gsColors gsEdgeColor gsEdgeDashPattern gsEdgeDashSegLenF
 gsEdgeThicknessF gsEdgesOn gsFillBackgroundColor gsFillColor gsFillDotSizeF
 gsFillIndex gsFillLineThicknessF gsFillOpacityF gsFillScaleF gsFont
@@ -87,7 +86,7 @@ gsLineLabelFontThicknessF gsLineLabelFuncCode gsLineLabelString gsLineOpacityF
 gsLineThicknessF gsMarkerColor gsMarkerIndex gsMarkerOpacityF gsMarkerSizeF
 gsMarkerThicknessF gsSegments gsTextAngleF gsTextConstantSpacingF
 gsTextDirection gsTextFuncCode gsTextJustification
-" NCL GSN resource
+
 gsnAboveYRefLineBarColors gsnAboveYRefLineBarFillScales
 gsnAboveYRefLineBarPatterns gsnAboveYRefLineColor gsnAddCyclic
 gsnAttachBorderOn gsnAttachPlotsXAxis gsnBelowYRefLineBarColors
@@ -130,7 +129,7 @@ gsnXYRightFillColors gsnYAxisIrregular2Linear gsnYAxisIrregular2Log gsnYRefLine
 gsnYRefLineColor gsnYRefLineColors gsnYRefLineDashPattern
 gsnYRefLineDashPatterns gsnYRefLineThicknessF gsnYRefLineThicknesses
 gsnZonalMean gsnZonalMeanXMaxF gsnZonalMeanXMinF gsnZonalMeanYRefLine
-" NCL LabelBar resource
+
 lbAutoManage lbBottomMarginF lbBoxCount lbBoxFractions lbBoxLineColor
 lbBoxLineDashPattern lbBoxLineDashSegLenF lbBoxLineThicknessF lbBoxLinesOn
 lbBoxMajorExtentF lbBoxMinorExtentF lbBoxSizing lbFillBackground lbFillColor
@@ -147,7 +146,7 @@ lbRasterFillOn lbRightMarginF lbTitleAngleF lbTitleConstantSpacingF
 lbTitleDirection lbTitleExtentF lbTitleFont lbTitleFontAspectF lbTitleFontColor
 lbTitleFontHeightF lbTitleFontQuality lbTitleFontThicknessF lbTitleFuncCode
 lbTitleJust lbTitleOffsetF lbTitleOn lbTitlePosition lbTitleString lbTopMarginF
-" NCL Legend resource
+
 lgAutoManage lgBottomMarginF lgBoxBackground lgBoxLineColor
 lgBoxLineDashPattern lgBoxLineDashSegLenF lgBoxLineThicknessF lgBoxLinesOn
 lgBoxMajorExtentF lgBoxMinorExtentF lgDashIndex lgDashIndexes lgItemCount
@@ -172,7 +171,7 @@ lgRightMarginF lgTitleAngleF lgTitleConstantSpacingF lgTitleDirection
 lgTitleExtentF lgTitleFont lgTitleFontAspectF lgTitleFontColor
 lgTitleFontHeightF lgTitleFontQuality lgTitleFontThicknessF lgTitleFuncCode
 lgTitleJust lgTitleOffsetF lgTitleOn lgTitlePosition lgTitleString lgTopMarginF
-" NCL MapPlot and MapTransformation resource
+
 mpAreaGroupCount mpAreaGroupCountsmall mpAreaMaskingOn mpAreaMaskingOnsmall
 mpAreaNames mpAreaNamessmall mpAreaTypes mpAreaTypessmall mpBottomAngleF
 mpBottomAngleFsmall mpBottomMapPosF mpBottomMapPosFsmall mpBottomNDCF
@@ -261,16 +260,16 @@ mpUSStateLineColor mpUSStateLineColorsmall mpUSStateLineDashPattern
 mpUSStateLineDashPatternsmall mpUSStateLineDashSegLenF
 mpUSStateLineDashSegLenFsmall mpUSStateLineThicknessF
 mpUSStateLineThicknessFsmall
-" NCL PlotManager resource
+
 pmAnnoManagers pmAnnoViews pmLabelBarDisplayMode pmLabelBarHeightF
 pmLabelBarKeepAspect pmLabelBarOrthogonalPosF pmLabelBarParallelPosF
 pmLabelBarSide pmLabelBarWidthF pmLabelBarZone pmLegendDisplayMode
 pmLegendHeightF pmLegendKeepAspect pmLegendOrthogonalPosF pmLegendParallelPosF
 pmLegendSide pmLegendWidthF pmLegendZone pmOverlaySequenceIds
 pmTickMarkDisplayMode pmTickMarkZone pmTitleDisplayMode pmTitleZone
-" NCL Primitive resource
+
 prGraphicStyle prPolyType prXArray prYArray
-" NCL ScalarField and MeshScalarField resource
+
 sfCopyData sfCopyData sfCopyData sfDataArray sfDataArray sfDataArray sfDataMaxV
 sfDataMaxV sfDataMaxV sfDataMinV sfDataMinV sfDataMinV sfElementNodes
 sfElementNodes sfExchangeDimensions sfExchangeDimensions sfFirstNodeIndex
@@ -284,7 +283,7 @@ sfYCActualEndF sfYCActualStartF sfYCActualStartF sfYCActualStartF sfYCEndIndex
 sfYCEndIndex sfYCEndSubsetV sfYCEndSubsetV sfYCEndV sfYCEndV sfYCStartIndex
 sfYCStartIndex sfYCStartSubsetV sfYCStartSubsetV sfYCStartV sfYCStartV
 sfYCStride sfYCStride sfYCellBounds sfYCellBounds
-" NCL StreamlinePlot resource
+
 stArrowLengthF stArrowStride stCrossoverCheckCount stExplicitLabelBarLabelsOn
 stLabelBarEndLabelsOn stLabelFormat stLengthCheckCount stLevelColors
 stLevelCount stLevelPalette stLevelSelectionMode stLevelSpacingF stLevels
@@ -300,9 +299,9 @@ stZeroFLabelFontThicknessF stZeroFLabelFuncCode stZeroFLabelJust stZeroFLabelOn
 stZeroFLabelOrthogonalPosF stZeroFLabelParallelPosF stZeroFLabelPerimColor
 stZeroFLabelPerimOn stZeroFLabelPerimSpaceF stZeroFLabelPerimThicknessF
 stZeroFLabelSide stZeroFLabelString stZeroFLabelTextDirection stZeroFLabelZone
-" NCL Transform resource
+
 tfDoNDCOverlay tfPlotManagerOn tfPolyDrawList tfPolyDrawOrder
-" NCL Title resource
+
 tiDeltaF tiMainAngleF tiMainConstantSpacingF tiMainDirection tiMainFont
 tiMainFontAspectF tiMainFontColor tiMainFontHeightF tiMainFontQuality
 tiMainFontThicknessF tiMainFuncCode tiMainJust tiMainOffsetXF tiMainOffsetYF
@@ -315,7 +314,7 @@ tiYAxisAngleF tiYAxisConstantSpacingF tiYAxisDirection tiYAxisFont
 tiYAxisFontAspectF tiYAxisFontColor tiYAxisFontHeightF tiYAxisFontQuality
 tiYAxisFontThicknessF tiYAxisFuncCode tiYAxisJust tiYAxisOffsetXF
 tiYAxisOffsetYF tiYAxisOn tiYAxisPosition tiYAxisSide tiYAxisString
-" NCL TickMark resource
+
 tmBorderLineColor tmBorderThicknessF tmEqualizeXYSizes tmLabelAutoStride
 tmSciNoteCutoff tmXBAutoPrecision tmXBBorderOn tmXBDataLeftF tmXBDataRightF
 tmXBFormat tmXBIrrTensionF tmXBIrregularPoints tmXBLabelAngleF
@@ -364,7 +363,7 @@ tmYRMinLabelSpacingF tmYRMinorLengthF tmYRMinorLineColor tmYRMinorOn
 tmYRMinorOutwardLengthF tmYRMinorPerMajor tmYRMinorThicknessF tmYRMinorValues
 tmYRMode tmYROn tmYRPrecision tmYRStyle tmYRTickEndF tmYRTickSpacingF
 tmYRTickStartF tmYRValues tmYUseLeft
-" NCL Transformation, IrregularTransform, LogLinTransformation resource
+
 trGridType trGridType_Transformation trLineInterpolationOn
 trLineInterpolationOn_Transformation trXAxisType
 trXAxisType_IrregularTransformation trXCoordPoints
@@ -379,13 +378,13 @@ trYInterPoints_IrregularTransformation trYLog trYLog_LogLinTransformation
 trYMaxF trYMaxF_Transformation trYMinF trYMinF_Transformation trYReverse
 trYReverse_Transformation trYSamples trYSamples_IrregularTransformation
 trYTensionF trYTensionF_IrregularTransformation
-" NCL TextItem resource
+
 txAngleF txBackgroundFillColor txConstantSpacingF txDirection txFont
 txFontAspectF txFontColor txFontHeightF txFontOpacityF txFontQuality
 txFontThicknessF txFuncCode txJust txPerimColor txPerimDashLengthF
 txPerimDashPattern txPerimOn txPerimSpaceF txPerimThicknessF txPosXF txPosYF
 txString
-" NCL VectorPlot resource
+
 vcExplicitLabelBarLabelsOn vcFillArrowEdgeColor vcFillArrowEdgeThicknessF
 vcFillArrowFillColor vcFillArrowHeadInteriorXF vcFillArrowHeadMinFracXF
 vcFillArrowHeadMinFracYF vcFillArrowHeadXF vcFillArrowHeadYF
@@ -432,7 +431,7 @@ vcZeroFLabelJust vcZeroFLabelOn vcZeroFLabelOrthogonalPosF
 vcZeroFLabelParallelPosF vcZeroFLabelPerimColor vcZeroFLabelPerimOn
 vcZeroFLabelPerimSpaceF vcZeroFLabelPerimThicknessF vcZeroFLabelSide
 vcZeroFLabelString vcZeroFLabelTextDirection vcZeroFLabelZone
-" NCL VectorField resource
+
 vfCopyData vfDataArray vfExchangeDimensions vfExchangeUVData vfMagMaxV
 vfMagMinV vfMissingUValueV vfMissingVValueV vfPolarData vfSingleMissingValue
 vfUDataArray vfUMaxV vfUMinV vfVDataArray vfVMaxV vfVMinV vfXArray
@@ -440,10 +439,10 @@ vfXCActualEndF vfXCActualStartF vfXCEndIndex vfXCEndSubsetV vfXCEndV
 vfXCStartIndex vfXCStartSubsetV vfXCStartV vfXCStride vfYArray vfYCActualEndF
 vfYCActualStartF vfYCEndIndex vfYCEndSubsetV vfYCEndV vfYCStartIndex
 vfYCStartSubsetV vfYCStartV vfYCStride
-" NCL View resource
+
 vpAnnoManagerId vpClipOn vpHeightF vpKeepAspect vpOn vpUseSegments vpWidthF
 vpXF vpYF
-" NCL Workstation resource
+
 wkBackgroundColor wkBackgroundColor wkColorMapLen wkColorMapLen wkColorMap
 wkColorMap wkColorModel wkColorModel wkColorModel wkDashTableLength
 wkDashTableLength wkDefGraphicStyleId wkDefGraphicStyleId wkDeviceLowerX
@@ -462,9 +461,9 @@ wkPaperSize wkPaperSize wkPaperSize wkPaperWidthF wkPaperWidthF wkPaperWidthF
 wkPaperWidthF wkPause wkPause wkTopLevelViews wkTopLevelViews wkViews wkViews
 wkVisualType wkVisualType wkVisualType wkWidth wkWidth wkWidth wkWindowId
 wkWindowId wkXColorMode wkXColorMode
-" NCL Workspace resource
+
 wsCurrentSize wsMaximumSize wsThresholdSize
-" NCL XyPlot resource
+
 xyComputeXMax xyComputeXMin xyComputeYMax xyComputeYMin xyCoordData
 xyCoordDataSpec xyCurveDrawOrder xyDashPattern xyDashPatterns xyExplicitLabels
 xyExplicitLegendLabels xyLabelMode xyLineColor xyLineColors xyLineDashSegLenF
@@ -477,11 +476,11 @@ xyMarkerThicknesses xyMarkers xyMonoDashPattern xyMonoLineColor
 xyMonoLineLabelFontColor xyMonoLineThickness xyMonoMarkLineMode xyMonoMarker
 xyMonoMarkerColor xyMonoMarkerSize xyMonoMarkerThickness xyXIrrTensionF
 xyXIrregularPoints xyXStyle xyYIrrTensionF xyYIrregularPoints xyYStyle
-" NCL keyword
+
 load begin end procedure function local
-" NCL control keyword
+
 do end if then else while break continue return
-" NCL intrinsic function
+
 abs acos add90LatX add90LatY addfile addfiles addfiles_GetVar all angmom_atm
 any area_conserve_remap area_conserve_remap_Wrap area_hi2lores
 area_hi2lores_Wrap area_poly_sphere array_append_record asciiread asciiwrite
@@ -680,3 +679,5 @@ wrf_user_ll_to_ij wrf_user_unstagger wrf_uvmet wrf_vector write_matrix
 write_table yiqrgb yyyyddd_to_yyyymmdd yyyymm_time yyyymm_to_yyyyfrac
 yyyymmdd_time yyyymmdd_to_yyyyddd yyyymmdd_to_yyyyfrac yyyymmddhh_time
 yyyymmddhh_to_yyyyfrac z2geouv zonal_mpsi zonal_mpsi_Wrap zonalAve
+
+colormap_amwg256 colormap_WhiteBlueGreenYellowRed colormap_WhBlGrYeRe
