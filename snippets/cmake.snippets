@@ -1,0 +1,14 @@
+snippet use_library
+	find_package (${1:LIBRARY})
+	if (NOT $1_FOUND)
+		if (DEFINED ENV{$1_ROOT})
+			message ("@@ Use user provided library $1!")
+			message ("@@ $1_ROOT = $ENV{$1_ROOT}")
+		else ()
+			message (FATAL_ERROR
+				"CMake couldn't find library $1! "
+				"If it have been installed and you know where it is, "
+				"set $1_ROOT (e.g. in .bashrc) to it."
+			)
+		endif ()
+	endif ()

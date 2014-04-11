@@ -680,4 +680,8 @@ write_table yiqrgb yyyyddd_to_yyyymmdd yyyymm_time yyyymm_to_yyyyfrac
 yyyymmdd_time yyyymmdd_to_yyyyddd yyyymmdd_to_yyyyfrac yyyymmddhh_time
 yyyymmddhh_to_yyyyfrac z2geouv zonal_mpsi zonal_mpsi_Wrap zonalAve
 
+openwks
+plot_xy
+res_xy_ranges
 colormap_amwg256 colormap_WhiteBlueGreenYellowRed colormap_WhBlGrYeRe
+

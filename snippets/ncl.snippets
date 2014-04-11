@@ -17,6 +17,15 @@ snippet openwks
 	wks = gsn_open_wks("${1:pdf}", "${2:figure}")
 snippet plot_xy
 	${1:plot} = gsn_csm_xy(wks, ${2:x}, ${3:y}, ${4:res})
+snippet res_xy_ranges
+	${1:res}@trXMinF = ${2:...}
+	$1@trXMaxF = ${3:...}
+	$1@trYMinF = ${4:...}
+	$1@trYMaxF = ${5:...}
+	$1@tmXBTickStartF = $2
+	$1@tmXBTickEndF = $3
+	$1@tmYLTickStartF = $4
+	$1@tmYLTickEndF = $5
 snippet colormap_amwg256
 	amwg256
 snippet colormap_WhiteBlueGreenYellowRed
