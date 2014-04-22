@@ -1,0 +1,26 @@
+snippet snippet_customize_compiler_flags
+	if (${CMAKE_${1:language}_COMPILER_ID} STREQUAL "${2:ID}")
+		set (CMAKE_$1_FLAGS "${CMAKE_$1_FLAGS} ${3:flags}")
+	endif ()
+snippet snippet_use_library
+	find_package (${1:LIBRARY})
+	if (NOT $1_FOUND)
+		if (DEFINED ENV{$1_ROOT})
+			message ("@@ Use user provided library $1!")
+			message ("@@ $1_ROOT = $ENV{$1_ROOT}")
+		else ()
+			message (FATAL_ERROR
+				"CMake couldn't find library $1! "
+				"If it have been installed and you know where it is, "
+				"set $1_ROOT (e.g. in .bashrc) to it."
+			)
+		endif ()
+	endif ()
+snippet snippet_add_library
+	add_library (${1:target_name} SHARED ${2:sources})
+	target_link_libraries ($1 ${3:other_libraries})
+	add_dependencies ($1 ${4:other_targets})
+snippet snippet_add_executable
+	add_executable (${1:target_name} SHARED ${2:sources})
+	target_link_libraries ($1 ${3:other_libraries})
+	add_dependencies ($1 ${4:other_targets})
