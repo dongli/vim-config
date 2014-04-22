@@ -16,6 +16,7 @@ snippet snippet_use_library
 			)
 		endif ()
 	endif ()
+	include_directories (${$1_INCLUDE_DIRS})
 snippet snippet_add_library
 	add_library (${1:target_name} SHARED ${2:sources})
 	target_link_libraries ($1 ${3:other_libraries})
