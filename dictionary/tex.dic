@@ -1,0 +1,13 @@
+documentclass usepackage title author data begin end maketitle
+
+article ctexart book ctexbook report
+
+document equation align
+
+adobefonts
+
+geometry amsmath graphicx xcolor blindtext
+
+centering includegraphics caption label ref
+
+snippetStartArticle snippetBeginEnd

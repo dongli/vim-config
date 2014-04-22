@@ -7,6 +7,9 @@ set hlsearch
 syntax on
 filetype plugin indent on
 
+" we like use LaTeX not plain TeX
+let g:tex_flavor='latex'
+
 " delete word around cursor
 imap <C-l> <C-[>diwi
 
