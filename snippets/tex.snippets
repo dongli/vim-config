@@ -5,6 +5,7 @@ snippet snippetStartArticle
 	\usepackage{amsmath}
 	\usepackage{graphicx}
 	\usepackage{xcolor}
+	\usepackage{natbib}
 
 	\title{${1:Article Title}}
 	\author{${2:Your Name}}
@@ -12,6 +13,28 @@ snippet snippetStartArticle
 
 	\begin{document}
 
+	\maketitle
+
+	\end{document}
+snippet snippetStartCtexart
+	%!TEX TS-program = xelatex
+	%!TEX encoding = UTF-8 Unicode
+
+	\documentclass[12pt,adobefonts]{ctexart}
+	\usepackage{geometry}
+	\geometry{letterpaper}
+	\usepackage{graphicx}
+	\usepackage{amssymb}
+	\usepackage{amsmath}
+	\usepackage{natbib}
+	\usepackage{fontspec,xltxtra,xunicode}
+	\defaultfontfeatures{Mapping=tex-text}
+
+	\title{}
+	\author{}
+	\date{}
+
+	\begin{document}
 	\maketitle
 
 	\end{document}

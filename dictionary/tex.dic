@@ -12,4 +12,4 @@ centering includegraphics caption label ref
 
 bibliographystyle bibliography
 
-snippetStartArticle snippetBeginEnd
+snippetStartArticle snippetStartCtexart snippetBeginEnd
